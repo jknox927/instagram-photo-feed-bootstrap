@@ -1,0 +1,15 @@
+.fade-custom {
+    animation: fade ease 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+@keyframes fade {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;  
+    }
+}
